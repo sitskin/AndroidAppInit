@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_id": "hop-market",
+    "project_number": "19445984783",
+    "name": "Hop Market"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19445984783:android:17ba79905dd75bdb",
+        "client_id": "android:com.example.sitskin.initaplication",
+        "android_client_info": {
+          "package_name": "com.example.sitskin.initaplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19445984783-2h2hq1e96dkujefmk18tuagvls9djl5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopgrade.android",
+            "certificate_hash": "EDF4ADEAA585A73A6BF98A3754A067B132635F7A"
+          }
+        },
+        {
+          "client_id": "19445984783-svb3rl1kf3ur0mtagnlbvln1adch7160.apps.googleusercontent.com",
+          "client_type": 1
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdTU6aNU7wt3lFF-q6Fiupi3lRNVYIgFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19445984783:android:17ba79905dd75bdb",
+        "client_id": "android:com.example.sitskin.initaplication",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.sitskin.initaplication.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19445984783-i4ucno15993dhp73skvqpao7d2k2ejoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopgrade.android.beta"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdTU6aNU7wt3lFF-q6Fiupi3lRNVYIgFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19445984783:android:63986858679080cb",
+        "client_id": "android:com.example.sitskin.initaplication.dev",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.sitskin.initaplication.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19445984783-svb3rl1kf3ur0mtagnlbvln1adch7160.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopgrade.android.dev"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdTU6aNU7wt3lFF-q6Fiupi3lRNVYIgFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

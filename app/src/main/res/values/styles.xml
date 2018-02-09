@@ -1,0 +1,121 @@
+<resources>
+
+    <attr name="primary" format="reference" />
+    <attr name="accent" format="reference" />
+    <attr name="accentPressed" format="reference" />
+
+    <attr name="cardTitleTextColor" format="reference" />
+    <attr name="cardContentTextColor" format="reference" />
+    <attr name="contentBackground" format="reference" />
+    <attr name="cardBackground" format="reference" />
+    <attr name="commentBackgroundColor" format="reference" />
+    <attr name="commentBorderColor" format="reference" />
+    <attr name="footerToolbarBackground" format="reference" />
+    <attr name="footerToolbarTextColor" format="reference" />
+    <attr name="overlayColor" format="color" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Android Theme Colors -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#383838</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:textColorPrimary">@color/hop_charcoal</item>
+        <item name="android:textColorSecondary">@color/hop_white</item>
+        <item name="android:windowBackground">@color/hop_white</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="actionMenuTextColor">@color/white</item>
+
+        <!-- Custom Theme Colors -->
+        <item name="primary">@color/white</item>
+        <item name="accent">@color/orange</item>
+        <item name="accentPressed">@color/orangePressed</item>
+        <item name="contentBackground">@color/hop_white</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="commentBackgroundColor">@color/white</item>
+        <item name="commentBorderColor">@color/smoke</item>
+        <item name="cardTitleTextColor">@color/black</item>
+        <item name="cardContentTextColor">@color/gray</item>
+        <item name="footerToolbarBackground">@color/white</item>
+        <item name="footerToolbarTextColor">@color/black</item>
+        <item name="overlayColor">#99FFFFFF</item>
+
+        <item name="tabSelectedTextColor">@color/secondary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+    </style>
+    <style name="AppTheme.Launch" parent="AppTheme.Dark">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.Settings" parent="AppTheme">
+        <item name="colorControlNormal">@color/hop_white</item>
+        <item name="android:textColorPrimary">@color/hop_charcoal</item>
+        <item name="android:textColorSecondary">@color/hop_orange</item>
+    </style>
+
+
+    <!-- DEPRECATED -->
+    <style name="AppTheme.Dark" parent="AppTheme" />
+
+    <style name="AppTheme.Overlay" parent="AppTheme.Dark">
+        <item name="accent">@color/secondary</item>
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="accent">@color/secondary</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- TOOLBAR -->
+
+    <style name="AppTheme.ActionBar"/>
+
+    <style name="AppTheme.ActionBar.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/hop_charcoal</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppTheme.Tabs">
+        <item name="tabSelectedTextColor">@color/secondary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+    </style>
+
+    <!-- TEXT -->
+
+    <style name="AppTheme.Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="AppTheme.Text.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Text.Buyer">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+
+    <style name="AppTheme.Text.Header">
+        <item name="android:textSize">@dimen/font_larger</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

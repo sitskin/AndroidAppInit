@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InitAplication</string>
+    <string name="action_settings">action</string>
+    <string name="debug_api_endpoint">https://apidev2-hopmarket-com-3008g4sfee3f.runscope.net/</string>
+    <string name="api_endpoint">https://apidev2.hopmarket.com/</string>
+    <string name="oauth_client_id">2217617513078</string>
+    <string name="user_agent">hopgrade-android-beta/%s</string>
+    <string name="mixpanel_token">33d91d57bad88a788bd4daa6b608e744</string>
+    <string name="thumbnail_cdn_url">https://d31bd7lwuhjvzq.cloudfront.net/%s</string>
+
+    <!-- Preferences -->
+    <string name="pref_cache_my_notifications">pref_cache_my_notifications</string>
+    <string name="pref_cache_my_groups">pref_cache_my_groups</string>
+    <string name="pref_cache_my_conversations">pref_cache_my_conversations</string>
+    <string name="pref_cache_suggested_groups">pref_cache_suggested_groups</string>
+</resources>
